@@ -80,6 +80,14 @@ namespace proyecto_final
                 goto backorder;
             }
 
+            else if (x == 6)
+            {
+                total = total + soda;
+                Console.WriteLine("   soda   " + total.ToString("0"));
+                Console.WriteLine("\n\n");
+                goto backorder;
+            }
+
 
             Console.WriteLine("");
             Console.ReadKey();
